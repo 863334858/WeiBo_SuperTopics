@@ -357,13 +357,13 @@ class WeiBo:
         :return:
         """
         story_list = self.get_story_list(yu_topic["topic_url"])
-        contents = "喻言@THE9-喻言"
+        contents = "当下的忧郁"
         repost_count = 0
         comment_count = 0
         star_count = 0
         for story in story_list:
             time.sleep(random.randint(5, 8))
-            if story["story_user"] != "喻言官方反黑站":
+            if story["story_user"] != "当下的忧郁":
                 st = self.get_st()
                 repost_res = self.repost_story(story["story_mid"], st, contents)
                 if repost_res["status"]:
