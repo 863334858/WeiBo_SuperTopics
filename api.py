@@ -837,9 +837,9 @@ class WeiBo:
 ```
 
 >
-> [GitHub项目地址](https://github.com/ReaJason/WeiBo_SuperTopics) 
+> 
 >
->期待你给项目的star✨
+>
 """
         server_push_headers = {
             "Content-type": "application/x-www-form-urlencoded; charset=UTF-8"
