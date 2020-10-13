@@ -82,7 +82,7 @@ class WeiBo:
 
     def get_topic_list(self):
         """
-        获取超话关注列表
+        获取超话关注列
         :return:
         """
         topic_list = []
