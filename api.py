@@ -583,7 +583,7 @@ class WeiBo:
         """
         解析微博评论的评论
         :param mid: 微博mid
-        :param cid: 评论cid
+        :param cid: 评论cid   
         :return:
         """
         comment_list = []
