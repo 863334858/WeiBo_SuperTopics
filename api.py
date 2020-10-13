@@ -124,7 +124,7 @@ class WeiBo:
 
     def get_story_list(self, topic_url):
         """
-        获取超话微博（第一页）获取多页设置最后if count == 1:中的 1 即可
+        获取超话微博（第一页）获取多页设置后if count == 1:中的 1 即可
         :param topic_url: 超话url
         :return:
         """
