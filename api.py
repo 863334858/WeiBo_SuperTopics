@@ -154,7 +154,7 @@ class WeiBo:
         """
         微博国际版APP签到接口
         :param s: 通过抓取微博国际版签到请求获取
-        :param topic_dict: 超话信息字典,具体格式请看get_topic_list函数中
+        :param topic_dict: 超话信息字典,具体格式请看get_topic_list函数
         :return:
         """
         check_data = {
