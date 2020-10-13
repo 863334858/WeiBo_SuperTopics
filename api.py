@@ -221,7 +221,7 @@ class WeiBo:
 
     def get_active_score(self):
         """
-        微博超话APP登录积分接口
+        微博超话APP登录积接口
         :return:
         """
         parmas = {'from': '21A7395010', 'ti': str(int(time.time() * 1000))}
